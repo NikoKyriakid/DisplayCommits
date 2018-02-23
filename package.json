@@ -1,0 +1,15 @@
+{
+  "name": "stepsize-take-home",
+  "version": "0.0.1",
+  "description": "Stepsize's take home exercise",
+  "main": "index.js",
+  "author": "Stepsize Ltd",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  },
+  "scripts": {
+    "boot-server": "node server.js"
+  }
+}
