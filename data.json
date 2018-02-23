@@ -1,0 +1,40 @@
+{
+  "results": {
+    "1f2f5062-ed8d-4571-9d24-5b639e85d61f": {
+      "title": "Mark onboarding as completed when user dismisses a tooltip using the X button",
+      "body": "",
+      "tags": [
+        "enhancement"
+      ],
+      "relevancy": 80,
+      "timestamp": "2017-12-07T11:45:23.000Z"
+    },
+    "84f1a296-98fc-4eb2-a6fe-677fb4bfc327": {
+      "title": "Add the Resources section to the ContextPanel",
+      "author": {
+        "username": "matthieualouis",
+        "avatarUrl": "https://avatars0.githubusercontent.com/u/4791181?v=4"
+      },
+      "body": "This PR implements the new accordion in the Context Panel for the Resources.\n\nWe only implement this for PRs at the moment.",
+      "tags": [
+        "feature"
+      ],
+      "relevancy": 15,
+      "timestamp": "2017-12-21T18:08:12.000Z"
+    },
+    "1ae85c38-166a-4777-a6eb-270404537be8": {
+      "title": "Resolve buggy behaviour when clicking on the scrub bar outside of the defined range",
+      "body": "This is an attempted resolution to issue #100 . The resolution implemented is to disable the click behaviour outside of the range, this is though a technical compromise. Arguably if development effort was not a factor the ideal solution would be to retain the click drag behaviour to define new scrub range, but prevent the buggy behaviour when just a click is triggered.\n\nSee the trello ticket for further details as to why this compromise was chosen https://trello.com/c/3E2HNwYO. TLDR: Would require the disabling and rewriting of considerable d3 brush logic to get the intended behaviour",
+      "tags": [
+        "front-end",
+        "bug"
+      ],
+      "author": {
+        "avatarUrl": "https://avatars1.githubusercontent.com/u/13640069?v=4",
+        "username": "jaredjburgess"
+      },
+      "relevancy": 30,
+      "timestamp": "2017-12-22T14:02:09.000Z"
+    }
+  }
+}

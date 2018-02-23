@@ -32,7 +32,7 @@ For your inspiration i've uploaded a screenshot of an old app we built in this r
 ### Set-up instructions
 - Clone this repository
 - Run `npm install` (or use `yarn` if you are familiar with it) to install dependencies
-- To run the mock server, run `npm run boot-server` (or `yarn boot-server`). This will boot a mock server at the following URL: `http://localhost:4000`
+- To run the mock server, run `npm run boot-server` (or `yarn boot-server`). This will boot a mock server at the following URL: `http://localhost:4000` (I am running Node version 8.9.4 locally in case that's useful information).
 
 ### Hand-in instructions
 - Send in a zip file with all the code required to run your solution

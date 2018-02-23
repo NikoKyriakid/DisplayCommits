@@ -10,6 +10,16 @@
     "express": "^4.16.2"
   },
   "scripts": {
-    "boot-server": "node server.js"
-  }
+    "boot-server": "node server.js",
+    "start": "node server.js"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stepsize/take-home-exercise.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Stepsize/take-home-exercise/issues"
+  },
+  "homepage": "https://github.com/Stepsize/take-home-exercise#readme"
 }
