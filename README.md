@@ -1,4 +1,4 @@
-This is the technical task for the front-end / full-stack position at Stepsize. Please spend a maximum of 4 hours on this task. Email me at matt@stepsize.com if you have any questions, comments or feedback. This is also the first time we run this, so if you think the task is significantly too difficult to finish in 4 hours, please let me know.
+This is the technical task for the front-end / full-stack position at Stepsize. Please don't spend more than 3 hours on this task, do as much as you can in the allocated time. Email me at matt@stepsize.com if you have any questions, comments or feedback.
 
 The goal of this task is to implement an SPA which displays a set of data. The data is served by a mock server (instructions on how to get it running later in the document).
 
@@ -20,14 +20,14 @@ The data returned by the mock server can be found in the `data.json` file. It is
 ### Requirements
 
 You should create an SPA that does the following:
-- On boot, the results should not be displayed. Instead you should display a login page with an email and password field, and a "login" button. There is no need to implement any kind of validation on the email and password.
-- When clicking on this button, the app should send a `POST` request to `http://localhost:4000/data` and with the username and password in the body. Make sure that the mock server is running first, see the set-up instructions further down.
+- On load, the results should not be displayed. Instead you should display a login page with an email and password field, and a "login" button. There is no need to implement any kind of validation on the email and password.
+- When clicking on this button, the app should send a `POST` request to `http://localhost:4000/data` and with the username and password in the body in the JSON format. Make sure that the mock server is running first, see the set-up instructions further down.
 - The server doesn't do any kind of verification on the payload, and always returns the results.
 - After the user has submitted their username and password, the app should display the results returned by the server, ranking the results by relevancy (from highest relevancy to lowest relevancy).
 - Once results are displayed, users should be able to rank the results by relevancy, or by timestamp. The default should be by relevancy.
 
 ### Design
-For your inspiration i've uploaded a screenshot of an old app we built in this repository (see `results-screen.png`). This should serve as a general guideline to help you choose how to display the data, and how to style the login screen. You will have noticed that the data sent to you is only a very small subset of the data that was displayed in the old app.
+I've pushed a screenshot of what the results screen should look like (see `results-screen.png`). It is pretty rough around the edges, so feel free to improve on it, especially the colour choices. For the login screen, use your creativity to implement something which is coherent with the design of the results screen.
 
 ### Set-up instructions
 - Clone this repository
