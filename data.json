@@ -2,6 +2,10 @@
   "results": {
     "1f2f5062-ed8d-4571-9d24-5b639e85d61f": {
       "title": "Mark onboarding as completed when user dismisses a tooltip using the X button",
+      "author": {
+        "username": "matthieualouis",
+        "avatarUrl": "https://avatars0.githubusercontent.com/u/4791181?v=4"
+      },
       "body": "",
       "tags": [
         "enhancement"
