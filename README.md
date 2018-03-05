@@ -27,7 +27,7 @@ You should create an SPA that does the following:
 - Once results are displayed, users should be able to rank the results by relevancy, or by timestamp. The default should be by relevancy.
 
 ### Design
-I've pushed a screenshot of what the results screen should look like (see `results-screen.png`). It is pretty rough around the edges, so feel free to improve on it, especially the colour choices. For the login screen, use your creativity to implement something which is coherent with the design of the results screen.
+I've pushed a screenshot of what the results screen should look like (see `results-screen.png`). Please try to reproduce that screenshot (even though i'm aware it's still a bit rough around the edges). For the login screen, use your creativity to implement something which is coherent with the design of the results screen.
 
 ### Set-up instructions
 - Clone this repository
