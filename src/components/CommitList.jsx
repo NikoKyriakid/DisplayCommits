@@ -8,22 +8,23 @@ export default class CommitList extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      commits: []
+      commits: this.props.location.state.data
     }
   }
 
-  componentDidMount() {
-    fetch('/data')
-      .then(res => res.json())
-      .then(res => res.results)
-      .then(res => {
-        return Object.keys(res).map(k => {
-          res[k].id = k;
-          return res[k];
-        })
-      })
-      .then(commits => this.setState({ commits: commits }));
-  }
+  // 
+  // componentDidMount() {
+  //   fetch('/data')
+  //     .then(res => res.json())
+  //     .then(res => res.results)
+  //     .then(res => {
+  //       return Object.keys(res).map(k => {
+  //         res[k].id = k;
+  //         return res[k];
+  //       })
+  //     })
+  //     .then(commits => this.setState({ commits: commits }));
+  // }
 
   render() {
     return (

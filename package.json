@@ -6,8 +6,8 @@
   "author": "Stepsize Ltd",
   "license": "UNLICENSED",
   "dependencies": {
+    "axios": "^0.18.0",
     "body-parser": "^1.18.2",
-    "browser-request": "^0.3.3",
     "express": "^4.16.2",
     "human-date": "^1.4.0",
     "normalize.css": "^8.0.0",

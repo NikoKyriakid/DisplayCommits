@@ -12,6 +12,7 @@ app.get('/', (req, res) => {
   res.sendFile(__dirname + '/dist/index.html');
 });
 
+/* remove this rule if you want to get in to the View only through Login Page */
 app.get('/View', (req, res) => {
   res.sendFile(__dirname + '/dist/index.html');
 });
