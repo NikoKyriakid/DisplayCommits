@@ -1,0 +1,8 @@
+.commit {
+  border: 1px solid grey;
+  border-radius: 5px;
+  color: #555;
+  background: white;
+  margin-bottom: 2em;
+  padding: 1em;
+}
