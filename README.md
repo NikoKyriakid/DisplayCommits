@@ -17,14 +17,14 @@ The data returned by the mock server can be found in the `data.json` file. It is
 ### Requirements
 
 Create an SPA that does the following:
-- On load, the results should not be displayed. Instead you should display a login page with an email and password field, and a "login" button. There is no need to implement any kind of validation on the email and password.
-- When clicking on this button, the app should send a `POST` request to `http://localhost:4000/data` and with the username and password in the body in the JSON format. Make sure that the mock server is running first, see the set-up instructions further down.
+- On load, display a login page with an email and password field, and a "login" button. (No implementation of any kind of validation on the email and password yet)
+- When clicking on this button, the app should send a `POST` request to `http://localhost:4000/data` and with the username and password in the body in the JSON format.
 - The server doesn't do any kind of verification on the payload, and always returns the results.
-- After the user has submitted their username and password, the app should display the results returned by the server, ranking the results by relevancy (from highest relevancy to lowest relevancy).
-- Once results are displayed, users should be able to rank the results by relevancy, or by timestamp. The default should be by relevancy.
+- After the user has submitted their username and password, the app displays the results returned by the server, ranking the results by relevancy (from highest relevancy to lowest relevancy).
+- Once results are displayed, users can rank the results by relevancy, or by timestamp. The default should be by relevancy.
 
 
 ### Set-up instructions
 - Clone this repository
 - Run `npm install` to install dependencies
-- `npm start` This will bundle the source and boot a mock server at the following URL: `http://localhost:4000` (I am running Node version 8.9.4 locally in case that's useful information).
+- `npm start` This will bundle the source and boot a mock server at the following URL: `http://localhost:4000` (Node version 8.9.4 was used)
