@@ -25,6 +25,9 @@ Create an SPA that does the following:
 
 
 ### Set-up instructions
-- Clone this repository
-- Run `npm install` to install dependencies
-- `npm start` This will bundle the source and boot a mock server at the following URL: `http://localhost:4000` (Node version 8.9.4 was used)
+```bash
+git clone https://github.com/NikoKyriakid/DisplayCommits.git # Clone this repository
+cd DisplayCommits
+npm install     # To install dependencies
+npm start       # This will bundle the source and boot a mock server at the following URL: `http://localhost:4000` (Node version 8.9.4 was used)
+```
